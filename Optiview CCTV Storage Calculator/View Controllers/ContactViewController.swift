@@ -71,7 +71,6 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     func setupSalesText() {
         
         salesTitleLabel.textAlignment = .center
-        salesTitleLabel.text = "Sales 👨‍💼"
         salesPhoneButton.setTitle(optiviewSalesPhoneText, for: .normal)
         salesEmailButton.setTitle(optiviewSalesEmailText, for: .normal)
         salesEmailButton.titleLabel?.adjustsFontSizeToFitWidth = true
@@ -80,7 +79,6 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     func setupTechSupportText() {
         
         techSupportTitleLabel.textAlignment = .center
-        techSupportTitleLabel.text = "Tech Support 👨‍💻"
         techSupportPhoneButton.setTitle(optiviewTechSupportPhoneText, for: .normal)
         techSupportEmailButton.setTitle(optiviewTechSupportEmailText, for: .normal)
         techSupportEmailButton.titleLabel?.adjustsFontSizeToFitWidth = true
@@ -121,26 +119,26 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     
     // Create function to center optiview on map
     func centerOptiviewLocation() {
-        let optiviewLocation = CLLocation(latitude: 30.296767,
-        longitude: -81.611463)
+        let optiviewLocation = CLLocation(latitude: 57.990949,
+        longitude: 56.204048)
         centerMapOnLocation(location: optiviewLocation)
     }
     
     // Create function to call sales
     func callSalesPhoneNumber()  {
-        let url: NSURL = URL(string: "TEL://9048051581")! as NSURL
+        let url: NSURL = URL(string: "TEL://88005118764")! as NSURL
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
     }
     
     // Create function to call tech support
     func callTechSupportPhoneNumber()  {
-        let url: NSURL = URL(string: "TEL://9048551121")! as NSURL
+        let url: NSURL = URL(string: "TEL://83422195090")! as NSURL
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
     }
     
     // Create button for when address button is tapped
     func addressButtonTapped() {
-        let optiviewAddressLink = "https://maps.apple.com/?address=5211%20Fairmont%20St,%20Jacksonville,%20FL%20%2032207,%20United%20States&ll=30.296857,-81.611421&q=5211%20Fairmont%20St&_ext=EiYpNcHcddhKPkAx322NwHZnVMA5MWwoLiVNPkBBWR2KSsxmVMBQAw%3D%3D"
+        let optiviewAddressLink = "https://maps.apple.com/?address=5211%20Fairmont%20St,%20Jacksonville,%20FL%20%2032207,%20United%20States&ll=57.990949,56.204048&q=5211%20Fairmont%20St&_ext=EiYpNcHcddhKPkAx322NwHZnVMA5MWwoLiVNPkBBWR2KSsxmVMBQAw%3D%3D"
         let url: NSURL = URL(string: optiviewAddressLink)! as NSURL
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
         
@@ -150,7 +148,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     func emailSales() {
         let emailTitle = "Подключение 'Телеком центр'"
         let messageBody = "Я связываюсь с вами через ваше мобильное приложение"
-        let toRecipents = ["sales@optiviewusa.com"]
+        let toRecipents = ["b2b.domru@domru.ru"]
         let mc: MFMailComposeViewController = MFMailComposeViewController()
         
         mc.mailComposeDelegate = self
@@ -164,7 +162,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     func emailTechSupport() {
         let emailTitle = "Техподдержка 'Телеком центр'"
         let messageBody = "Я связываюсь с вами через ваше мобильное приложение"
-        let toRecipents = ["tech@optiviewusa.com"]
+        let toRecipents = ["support@b2b.domru.ru"]
         let mc: MFMailComposeViewController = MFMailComposeViewController()
         
         mc.mailComposeDelegate = self
