@@ -1,3 +1,8 @@
+//
+//  Job+Convenience.swift
+//  CCTV Storage Calculator
+//
+
 import Foundation
 import CoreData
 

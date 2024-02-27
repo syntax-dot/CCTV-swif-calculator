@@ -1,3 +1,8 @@
+//
+//  ColorFunctions.swift
+//  CCTV Storage Calculator
+//
+
 import Foundation
 import UIKit
 
