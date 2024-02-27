@@ -2,9 +2,6 @@
 //  ContactViewController.swift
 //  CCTV Storage Calculator
 //
-//  Created by Casualty on 10/13/19.
-//  Copyright © 2019 Thomas Dye. All rights reserved.
-//
 
 import UIKit
 import MapKit
@@ -24,17 +21,17 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     @IBOutlet weak var locationLabel: UILabel!
     
     // Constants
-    let optiviewSalesPhoneText = "(904)-805-1581"
-    let optiviewTechSupportPhoneText = "(904)-855-1121"
-    let optiviewSalesEmailText = "sales@optiviewusa.com"
-    let optiviewTechSupportEmailText = "tech@optiviewusa.com"
-    let optiviewAddressText = "5211 Fairmont St.\nJacksonville, FL\n32207"
+    let optiviewSalesPhoneText = "8 (800) 511-87-64"
+    let optiviewTechSupportPhoneText = "8 (342) 219-50-90"
+    let optiviewSalesEmailText = "b2b.domru@domru.ru"
+    let optiviewTechSupportEmailText = "support@b2b.domru.ru"
+    let optiviewAddressText = "Россия, г. Пермь, ул. Шоссе Космонавтов, 111и к2"
     
     // Create function to center map
     func centerMapOnLocation(location: CLLocation) {
         let regionRadius: CLLocationDistance = 750
-        let optiviewLocation = CLLocationCoordinate2D(latitude: 30.296767,
-                                                      longitude: -81.611463)
+        let optiviewLocation = CLLocationCoordinate2D(latitude: 57.990949,
+                                                      longitude: 56.204048)
         let mapPin = MapPin(title: "Optiview",
                             locationName: "5211 Fairmont Street",
                             discipline: "Office",
@@ -151,8 +148,8 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     
     // Create function to email sales
     func emailSales() {
-        let emailTitle = "Optiview Sales"
-        let messageBody = "I'm contacting you via your mobile app"
+        let emailTitle = "Подключение 'Телеком центр'"
+        let messageBody = "Я связываюсь с вами через ваше мобильное приложение"
         let toRecipents = ["sales@optiviewusa.com"]
         let mc: MFMailComposeViewController = MFMailComposeViewController()
         
@@ -165,8 +162,8 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     
     // Create function to email tech support
     func emailTechSupport() {
-        let emailTitle = "Optiview Tech Support"
-        let messageBody = "I'm contacting you via your mobile app"
+        let emailTitle = "Техподдержка 'Телеком центр'"
+        let messageBody = "Я связываюсь с вами через ваше мобильное приложение"
         let toRecipents = ["tech@optiviewusa.com"]
         let mc: MFMailComposeViewController = MFMailComposeViewController()
         

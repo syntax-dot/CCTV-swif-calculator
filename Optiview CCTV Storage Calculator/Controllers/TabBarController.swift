@@ -2,9 +2,6 @@
 //  TabBarController.swift
 //  CCTV Storage Calculator
 //
-//  Created by Casualty on 10/8/19.
-//  Copyright © 2019 Thomas Dye. All rights reserved.
-//
 
 import UIKit
 
