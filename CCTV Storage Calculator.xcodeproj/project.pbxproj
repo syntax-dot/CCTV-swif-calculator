@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0942E423A0AAF0000D918C /* ColorFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0942E323A0AAF0000D918C /* ColorFunctions.swift */; };
+		CE3DC9ED235365E700BE204F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DC9EC235365E700BE204F /* ContactViewController.swift */; };
+		CE3EA6FC234CE380004A4864 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EA6FB234CE380004A4864 /* TabBarController.swift */; };
+		CE3EA700234CE869004A4864 /* CalculateStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EA6FF234CE868004A4864 /* CalculateStorageViewController.swift */; };
+		CE4069D32343AA8B003B0626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4069D22343AA8B003B0626 /* AppDelegate.swift */; };
+		CE4069D52343AA8B003B0626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4069D42343AA8B003B0626 /* SceneDelegate.swift */; };
+		CE4069DA2343AA8B003B0626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4069D82343AA8B003B0626 /* Main.storyboard */; };
+		CE4069DC2343AA8E003B0626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4069DB2343AA8E003B0626 /* Assets.xcassets */; };
+		CE4069DF2343AA8E003B0626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4069DD2343AA8E003B0626 /* LaunchScreen.storyboard */; };
+		ED4298C62459C64600F1C1CA /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4298C52459C64600F1C1CA /* JobTableViewCell.swift */; };
+		ED4298C82459F1E700F1C1CA /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4298C72459F1E700F1C1CA /* JobDetailViewController.swift */; };
+		ED4298CA245A559D00F1C1CA /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4298C9245A559D00F1C1CA /* PhoneNumberFormatter.swift */; };
+		ED437C5F2446CE03002E096B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED437C5E2446CE03002E096B /* SignUpViewController.swift */; };
+		ED437C612446CE15002E096B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED437C602446CE15002E096B /* SignInViewController.swift */; };
+		ED437C632446DA40002E096B /* OptiviewDealerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED437C622446DA40002E096B /* OptiviewDealerViewController.swift */; };
+		ED437C672446DA72002E096B /* AddJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED437C662446DA72002E096B /* AddJobViewController.swift */; };
+		ED437C692446DA97002E096B /* JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED437C682446DA97002E096B /* JobsTableViewController.swift */; };
+		EDBD328D2459036C00584B79 /* Job+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD328C2459036C00584B79 /* Job+Convenience.swift */; };
+		EDBD329224592DFE00584B79 /* Jobs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDBD329024592DFE00584B79 /* Jobs.xcdatamodeld */; };
+		EDBD329424592E7800584B79 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD329324592E7800584B79 /* CoreDataStack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE0942E323A0AAF0000D918C /* ColorFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFunctions.swift; sourceTree = "<group>"; };
+		CE3DC9EC235365E700BE204F /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		CE3EA6FB234CE380004A4864 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CE3EA6FF234CE868004A4864 /* CalculateStorageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateStorageViewController.swift; sourceTree = "<group>"; };
+		CE4069CF2343AA8B003B0626 /* CCTV Storage Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCTV Storage Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4069D22343AA8B003B0626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE4069D42343AA8B003B0626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE4069D92343AA8B003B0626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE4069DB2343AA8E003B0626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4069DE2343AA8E003B0626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE4069E02343AA8E003B0626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2BA407245B180000A722C9 /* Jobs 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Jobs 2.xcdatamodel"; sourceTree = "<group>"; };
+		ED2BA40F2460AE0100A722C9 /* Jobs 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Jobs 3.xcdatamodel"; sourceTree = "<group>"; };
+		ED4298C52459C64600F1C1CA /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		ED4298C72459F1E700F1C1CA /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
+		ED4298C9245A559D00F1C1CA /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		ED437C5E2446CE03002E096B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ED437C602446CE15002E096B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ED437C622446DA40002E096B /* OptiviewDealerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiviewDealerViewController.swift; sourceTree = "<group>"; };
+		ED437C662446DA72002E096B /* AddJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJobViewController.swift; sourceTree = "<group>"; };
+		ED437C682446DA97002E096B /* JobsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsTableViewController.swift; sourceTree = "<group>"; };
+		EDBD328C2459036C00584B79 /* Job+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Job+Convenience.swift"; sourceTree = "<group>"; };
+		EDBD329124592DFE00584B79 /* Jobs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jobs.xcdatamodel; sourceTree = "<group>"; };
+		EDBD329324592E7800584B79 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4069CC2343AA8B003B0626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3EA703234CE88E004A4864 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EA6FF234CE868004A4864 /* CalculateStorageViewController.swift */,
+				CE3DC9EC235365E700BE204F /* ContactViewController.swift */,
+				ED437C5E2446CE03002E096B /* SignUpViewController.swift */,
+				ED437C602446CE15002E096B /* SignInViewController.swift */,
+				ED437C622446DA40002E096B /* OptiviewDealerViewController.swift */,
+				ED437C662446DA72002E096B /* AddJobViewController.swift */,
+				ED437C682446DA97002E096B /* JobsTableViewController.swift */,
+				ED4298C72459F1E700F1C1CA /* JobDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE3EA704234CE8A0004A4864 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3EA6FB234CE380004A4864 /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE3EA705234CE8B2004A4864 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				CE4069DB2343AA8E003B0626 /* Assets.xcassets */,
+				CE4069D22343AA8B003B0626 /* AppDelegate.swift */,
+				CE4069D42343AA8B003B0626 /* SceneDelegate.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		CE3EA706234CE8C3004A4864 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CE4069D82343AA8B003B0626 /* Main.storyboard */,
+				CE4069DD2343AA8E003B0626 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CE4069C62343AA8B003B0626 = {
+			isa = PBXGroup;
+			children = (
+				CE4069D12343AA8B003B0626 /* Optiview CCTV Storage Calculator */,
+				CE4069D02343AA8B003B0626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4069D02343AA8B003B0626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4069CF2343AA8B003B0626 /* CCTV Storage Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4069D12343AA8B003B0626 /* Optiview CCTV Storage Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				ED4298C42459C61C00F1C1CA /* Views */,
+				EDBD328B2459035900584B79 /* Models */,
+				CE3EA704234CE8A0004A4864 /* Controllers */,
+				CE3EA703234CE88E004A4864 /* View Controllers */,
+				CE3EA705234CE8B2004A4864 /* Misc */,
+				CE3EA706234CE8C3004A4864 /* Storyboard */,
+				CE4069E02343AA8E003B0626 /* Info.plist */,
+			);
+			path = "Optiview CCTV Storage Calculator";
+			sourceTree = "<group>";
+		};
+		ED4298C42459C61C00F1C1CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED4298C52459C64600F1C1CA /* JobTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDBD328B2459035900584B79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD329024592DFE00584B79 /* Jobs.xcdatamodeld */,
+				EDBD328C2459036C00584B79 /* Job+Convenience.swift */,
+				EDBD329324592E7800584B79 /* CoreDataStack.swift */,
+				CE0942E323A0AAF0000D918C /* ColorFunctions.swift */,
+				ED4298C9245A559D00F1C1CA /* PhoneNumberFormatter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4069CE2343AA8B003B0626 /* CCTV Storage Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4069E32343AA8E003B0626 /* Build configuration list for PBXNativeTarget "CCTV Storage Calculator" */;
+			buildPhases = (
+				CE4069CB2343AA8B003B0626 /* Sources */,
+				CE4069CC2343AA8B003B0626 /* Frameworks */,
+				CE4069CD2343AA8B003B0626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCTV Storage Calculator";
+			productName = "Optiview CCTV Storage Calculator";
+			productReference = CE4069CF2343AA8B003B0626 /* CCTV Storage Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4069C72343AA8B003B0626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Thomas Dye";
+				TargetAttributes = {
+					CE4069CE2343AA8B003B0626 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CE4069CA2343AA8B003B0626 /* Build configuration list for PBXProject "CCTV Storage Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4069C62343AA8B003B0626;
+			productRefGroup = CE4069D02343AA8B003B0626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4069CE2343AA8B003B0626 /* CCTV Storage Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4069CD2343AA8B003B0626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4069DF2343AA8E003B0626 /* LaunchScreen.storyboard in Resources */,
+				CE4069DC2343AA8E003B0626 /* Assets.xcassets in Resources */,
+				CE4069DA2343AA8B003B0626 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4069CB2343AA8B003B0626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED437C632446DA40002E096B /* OptiviewDealerViewController.swift in Sources */,
+				CE3EA6FC234CE380004A4864 /* TabBarController.swift in Sources */,
+				ED437C5F2446CE03002E096B /* SignUpViewController.swift in Sources */,
+				CE3DC9ED235365E700BE204F /* ContactViewController.swift in Sources */,
+				CE4069D32343AA8B003B0626 /* AppDelegate.swift in Sources */,
+				ED437C612446CE15002E096B /* SignInViewController.swift in Sources */,
+				CE0942E423A0AAF0000D918C /* ColorFunctions.swift in Sources */,
+				ED4298CA245A559D00F1C1CA /* PhoneNumberFormatter.swift in Sources */,
+				EDBD329424592E7800584B79 /* CoreDataStack.swift in Sources */,
+				ED4298C82459F1E700F1C1CA /* JobDetailViewController.swift in Sources */,
+				EDBD328D2459036C00584B79 /* Job+Convenience.swift in Sources */,
+				ED4298C62459C64600F1C1CA /* JobTableViewCell.swift in Sources */,
+				CE4069D52343AA8B003B0626 /* SceneDelegate.swift in Sources */,
+				CE3EA700234CE869004A4864 /* CalculateStorageViewController.swift in Sources */,
+				EDBD329224592DFE00584B79 /* Jobs.xcdatamodeld in Sources */,
+				ED437C692446DA97002E096B /* JobsTableViewController.swift in Sources */,
+				ED437C672446DA72002E096B /* AddJobViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE4069D82343AA8B003B0626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4069D92343AA8B003B0626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE4069DD2343AA8E003B0626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4069DE2343AA8E003B0626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE4069E12343AA8E003B0626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE4069E22343AA8E003B0626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4069E42343AA8E003B0626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB72Z627AT;
+				INFOPLIST_FILE = "Optiview CCTV Storage Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casualtygames.Optiview-CCTV-Storage-Calculator";
+				PRODUCT_NAME = "CCTV Storage Calculator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE4069E52343AA8E003B0626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB72Z627AT;
+				INFOPLIST_FILE = "Optiview CCTV Storage Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.casualtygames.Optiview-CCTV-Storage-Calculator";
+				PRODUCT_NAME = "CCTV Storage Calculator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4069CA2343AA8B003B0626 /* Build configuration list for PBXProject "CCTV Storage Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4069E12343AA8E003B0626 /* Debug */,
+				CE4069E22343AA8E003B0626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4069E32343AA8E003B0626 /* Build configuration list for PBXNativeTarget "CCTV Storage Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4069E42343AA8E003B0626 /* Debug */,
+				CE4069E52343AA8E003B0626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDBD329024592DFE00584B79 /* Jobs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED2BA40F2460AE0100A722C9 /* Jobs 3.xcdatamodel */,
+				ED2BA407245B180000A722C9 /* Jobs 2.xcdatamodel */,
+				EDBD329124592DFE00584B79 /* Jobs.xcdatamodel */,
+			);
+			currentVersion = ED2BA40F2460AE0100A722C9 /* Jobs 3.xcdatamodel */;
+			path = Jobs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE4069C72343AA8B003B0626 /* Project object */;
+}
