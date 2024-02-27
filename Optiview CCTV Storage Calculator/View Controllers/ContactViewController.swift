@@ -87,7 +87,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     func setupAddressButtonText() {
         
         // Navigation Button Title
-        navigateAddressButton.setTitle("Navigate", for: .normal)
+        navigateAddressButton.setTitle("Показать на карте", for: .normal)
     }
     
     func setupLocationLabelText() {
