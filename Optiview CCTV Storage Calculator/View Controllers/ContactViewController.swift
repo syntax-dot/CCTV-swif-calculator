@@ -71,7 +71,6 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     func setupSalesText() {
         
         salesTitleLabel.textAlignment = .center
-        salesTitleLabel.text = "Sales 👨‍💼"
         salesPhoneButton.setTitle(optiviewSalesPhoneText, for: .normal)
         salesEmailButton.setTitle(optiviewSalesEmailText, for: .normal)
         salesEmailButton.titleLabel?.adjustsFontSizeToFitWidth = true
@@ -80,7 +79,6 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     func setupTechSupportText() {
         
         techSupportTitleLabel.textAlignment = .center
-        techSupportTitleLabel.text = "Tech Support 👨‍💻"
         techSupportPhoneButton.setTitle(optiviewTechSupportPhoneText, for: .normal)
         techSupportEmailButton.setTitle(optiviewTechSupportEmailText, for: .normal)
         techSupportEmailButton.titleLabel?.adjustsFontSizeToFitWidth = true
