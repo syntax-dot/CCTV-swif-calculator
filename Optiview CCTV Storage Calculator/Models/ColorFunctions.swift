@@ -1,3 +1,11 @@
+//
+//  ColorFunctions.swift
+//  CCTV Storage Calculator
+//
+//  Created by Casualty on 12/10/19.
+//  Copyright © 2019 Thomas Dye. All rights reserved.
+//
+
 import Foundation
 import UIKit
 
