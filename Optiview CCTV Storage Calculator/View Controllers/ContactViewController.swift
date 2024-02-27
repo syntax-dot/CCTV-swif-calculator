@@ -32,8 +32,8 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
         let regionRadius: CLLocationDistance = 750
         let optiviewLocation = CLLocationCoordinate2D(latitude: 57.990949,
                                                       longitude: 56.204048)
-        let mapPin = MapPin(title: "Optiview",
-                            locationName: "5211 Fairmont Street",
+        let mapPin = MapPin(title: "Телеком центр",
+                            locationName: "Шоссе Космонавтов, 111и к2",
                             discipline: "Office",
                             coordinate: optiviewLocation)
         let coordinateRegion = MKCoordinateRegion(center: location.coordinate,
