@@ -138,7 +138,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     
     // Create button for when address button is tapped
     func addressButtonTapped() {
-        let optiviewAddressLink = "https://maps.apple.com/?address=5211%20Fairmont%20St,%20Jacksonville,%20FL%20%2032207,%20United%20States&ll=57.990949,56.204048&q=5211%20Fairmont%20St&_ext=EiYpNcHcddhKPkAx322NwHZnVMA5MWwoLiVNPkBBWR2KSsxmVMBQAw%3D%3D"
+        let optiviewAddressLink = "https://maps.apple.com/place?q=%D1%88%D0%BE%D1%81%D1%81%D0%B5%20%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%BE%D0%B2%2C%20111%20%D0%BA43&ll=57.990949%2C56.204048&address=%D1%88%D0%BE%D1%81%D1%81%D0%B5%20%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%BE%D0%B2%2C%20111%20%D0%BA43%2C%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%2C%20%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D1%80%D0%B0%D0%B9%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20614066"
         let url: NSURL = URL(string: optiviewAddressLink)! as NSURL
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
         
