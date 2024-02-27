@@ -146,7 +146,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     
     // Create function to email sales
     func emailSales() {
-        let emailTitle = "Подключение 'Телеком центр'"
+        let emailTitle = "Подключение Телеком центр"
         let messageBody = "Я связываюсь с вами через ваше мобильное приложение"
         let toRecipents = ["b2b.domru@domru.ru"]
         let mc: MFMailComposeViewController = MFMailComposeViewController()
@@ -160,7 +160,7 @@ class ContactViewController: UIViewController, MFMailComposeViewControllerDelega
     
     // Create function to email tech support
     func emailTechSupport() {
-        let emailTitle = "Техподдержка 'Телеком центр'"
+        let emailTitle = "Техподдержка Телеком центр"
         let messageBody = "Я связываюсь с вами через ваше мобильное приложение"
         let toRecipents = ["support@b2b.domru.ru"]
         let mc: MFMailComposeViewController = MFMailComposeViewController()
